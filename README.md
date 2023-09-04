@@ -1,6 +1,6 @@
 # dpkg IO performance benchmarks with no fsync, eatmydata
 
-[This HN comment](https://news.ycombinator.com/item?id=36937358) pointed out eatmydata as a way to improve docker build times for Debian containers. Further notes detailed how Debian images already disable some fsync calls to improve performance. So, is adding eatmydata on top worth it?
+[This HN comment](https://news.ycombinator.com/item?id=36937358) pointed out [`eatmydata`](https://manpages.debian.org/testing/eatmydata/eatmydata.1.en.html) as a way to improve docker build times for Debian containers. Further notes detailed how Debian images already disable some fsync calls to improve performance. So, is adding eatmydata on top worth it?
 
 `bench.sh` requires a working docker environment and [`hyperfine`](https://github.com/sharkdp/hyperfine).
 
