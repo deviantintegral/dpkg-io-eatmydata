@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Create an image with downloads committed so we aren't benchmarking the
+# network connection.
 docker build -t emd-test:latest -f Dockerfile.warmup .
 
 hyperfine -- \
