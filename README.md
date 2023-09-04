@@ -9,7 +9,7 @@
 `eatmydata` improves apt install time by 1.17x:
 
 ```
-caffeinate -du ./bench.sh
+$ caffeinate -du ./bench.sh
 [+] Building 0.0s (7/7) FINISHED
  => [internal] load .dockerignore                                                                    0.0s
  => => transferring context: 2B                                                                      0.0s
